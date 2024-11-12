@@ -1,0 +1,65 @@
+/* Navbar.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Logo Styling */
+  .navbar-logo h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+ 
+  .navbar-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .cart-count {
+    height:10px;
+    width:14px;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    color: red;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 1rem;
+    }
+  
+    .navbar-logo h2 {
+      font-size: 1.2rem;
+    }
+  
+    .cart-icon {
+      font-size: 1.2rem;
+    }
+  }
+  
